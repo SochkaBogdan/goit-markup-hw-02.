@@ -1,0 +1,226 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*<!--ШАПКА-------------------------------------------->*/
+
+
+.header {
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-item {
+    color: #2196F3;ma
+}
+
+.nav-list-item{
+}
+.nav-list-item a{
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;color: #212121;
+}
+.nav-list-item a:hover{
+    color: #2196F3;
+}
+.contact-list .contacts{
+    list-style: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.nav-list-item a:focus{
+    color: #2196F3;
+}
+.contact-list .contacts:hover{
+    color: #2196F3
+}
+.contact-list .contacts:focus{
+    color: #2196F3
+}
+/*<!--Хіро блок-------------------------------------------->*/
+
+
+.hero {
+    background: #2F303A;
+}
+.main-text {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.main-botton {
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;color: #FFFFFF;
+}
+
+/*<!--Наші переваги-------------------------------------------->*/
+
+
+.about {
+}
+.about-tittle {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.about-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+
+
+/*<!--Чим ми займаємося-------------------------------------------->*/
+
+
+.work-tittle,  {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.work-list {
+}
+.work-list-item {
+}
+
+/*<!--Наша команда-------------------------------------------->*/
+
+
+.team {
+}
+.team-tittle {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-sub-tittle{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.footer {
+    background: #2F303A;
+}
+.footer-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+.footer .contacts {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer .contacts:hover{
+    color: #2196F3;
+}
+.footer .contacts:focus{
+    color: #2196F3;
+}
+.footer .logo{
+    color: #FFFFFF;
+}
+/*-------------------PORTFOLIO------------------*/
+.portfolio-btn{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.portfolio-btn:hover{
+    background-color: #2196F3;
+color: #FFFFFF;
+}
+.portfolio-btn:focus{
+background-color: #2196F3;
+color: #FFFFFF
+}
+.portfolio .tittle{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio .text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
