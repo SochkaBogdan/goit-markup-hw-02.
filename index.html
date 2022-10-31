@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студія</title>
+    <!--Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,33 +21,34 @@
 <body>
     <!--ШАПКА-->
     <header class="header">
-        <nav>
+        <div class="header-conteiner">
             <a href="./index.html" class="logo"><span class="logo-item">Web</span>Studio</a>
-
-            <ul class="nav-list">
-                <li class="nav-list-item"><a href="">Студія</a></li>
-                <li class="nav-list-item"><a href="./portfolio.html">Портфоліо</a></li>
-                <li class="nav-list-item"><a href="">Контакти</a></li>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="">Студія</a></li>
+                    <li class="nav-list-item"><a href="./portfolio.html">Портфоліо</a></li>
+                    <li class="nav-list-item"><a href="">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="contact-list list">
+                <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contact-list list">
-            <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
         <!--Хіро блок-->
         <div class="hero">
-            <section>
+            <section class="">
                 <h1 class="main-text">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="main-botton">Замовити послугу</button>
+                <button type="button" class="main-button">Замовити послугу</button>
             </section>
         </div>
         <!--Наші переваги-->
         <section class="about">
             <h2 class="about-tittle">Benefits</h2>
             <ul class="list">
-                <li>
+                <li class="hero-list-item">
                     <h3 class="about-sub-tittle">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="about-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                     </p>
